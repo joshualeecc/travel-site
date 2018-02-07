@@ -1,0 +1,36 @@
+To add to local GIT:
+
+git add filename.ext // to staging area
+
+git commit -m "my first commit" // commit git files to git with message
+
+TO restore from local git
+git checkout -- . 
+
+
+---------------------------------------------------------------
+
+To clone a new site from git hub
+
+1) navigate to our site that we want the clone file to create in 
+eg C:\Users\joshua-main\Dropbox\github\sites\travel-site
+
+type at next prompt : git clone https://github.com/joshualeecc/travel-site.git 
+
+Some git command
+
+git remote -v  // to see where you are pushing and fetching from github 
+git remote set-url origin https://github.com/joshualeecc/travel-site.git  // change the repo url that u wanna post and fetching
+
+git push origin master / push one time to github all the files on your pc
+
+------------------------------------------------------
+to add single changes to github.
+
+git status // check changes to files
+
+git add -A or filename // All for all files and filename for one file to staging area.
+
+
+
+
