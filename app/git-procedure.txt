@@ -33,7 +33,10 @@ git add -A or filename // All for all files and filename for one file to staging
 
 git reset // removes files from staging before commit.
 
-git commit -m "message to server" // commit git file to server with message
+git commit -m "message to server" // commit changed file to local git repo.
+
+git push origin master / push changed files to server
+
 
 
 
